@@ -13,11 +13,12 @@ const workerConfig = {
   // Write KV at most every 3 minutes unless the status changed.
   kvWriteCooldownMinutes: 3,
   // Define all your monitors here
-  id: 'byte_website_monitor',
+  {id: 'byte_website_monitor',
       name: 'ByteBroadband Website',
       method: 'GET',
       target: 'https://www.bytebroadband.com'
-  monitors: [
+  }
+   monitors: [
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
