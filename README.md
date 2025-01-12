@@ -1,5 +1,5 @@
 # ✔[UptimeFlare](https://github.com/lyc8503/UptimeFlare)
-
+[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1q1tg.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 A more advanced, serverless, and free uptime monitoring & status page solution, powered by Cloudflare Workers, complete with a user-friendly interface.
 
 ## ⭐Features
